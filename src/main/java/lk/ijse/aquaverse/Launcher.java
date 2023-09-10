@@ -15,7 +15,7 @@ public class Launcher extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent rootNode = FXMLLoader.load(Objects.requireNonNull(this.getClass().getResource("/view/Login-form.fxml")));
+        Parent rootNode = FXMLLoader.load(Objects.requireNonNull(this.getClass().getResource("/view/dashboardForm.fxml")));
 
         Scene scene= new Scene(rootNode);
         stage.setTitle("Aqua Verse");
