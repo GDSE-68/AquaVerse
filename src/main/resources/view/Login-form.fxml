@@ -20,7 +20,7 @@
             <Image url="@../asset/RectangleDark.png" />
          </image>
       </ImageView>
-      <Pane layoutX="378.0" layoutY="106.0" prefHeight="555.0" prefWidth="597.0" styleClass="login-box">
+      <Pane layoutX="406.0" layoutY="98.0" prefHeight="555.0" prefWidth="597.0" styleClass="login-box">
          <children>
             <Label layoutX="230.0" layoutY="49.0" styleClass="sub" stylesheets="@../asset/css/stylesheet.css" text="Welcome back !" textFill="#757575" />
             <Label layoutX="130.0" layoutY="80.0" styleClass="headline" stylesheets="@../asset/css/stylesheet.css" text="Login to your account" />

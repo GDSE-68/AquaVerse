@@ -1,32 +1,42 @@
 .headline{
     -fx-text-fill: #333;
     -fx-font-family: Mulish;
-    -fx-font-size: 32px;
+    -fx-font-size: 34px;
     -fx-font-style: normal;
-    -fx-font-weight: 800 px;
+    -fx-font-weight: 800;
     -fx-line-height: normal;
 }
 .sub{
     -fx-text-fill: #757575;
     -fx-font-family: Mulish;
-    -fx-font-size: 20px;
+    -fx-font-size: 22px;
     -fx-font-style: normal;
-    -fx-font-weight: 400 px;
+    -fx-font-weight: 400;
     -fx-line-height: normal;
 }
 .username{
     -fx-text-fill: #474747;
     -fx-font-family: "Mulish";
-    -fx-font-size: 20;
-
+    -fx-font-size: 15;
+    -fx-font-weight: 600;
 }
 .login-box{
-    -fx-border-color: rgba(255, 255, 255, 0.73);
     -fx-border-width: 5;
     -fx-border-radius: 20;
-    -fx-background-color: rgba(255, 255, 255, 0.83);
     -fx-background-radius: 20;
+    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.39));
 }
 .label-user{
     -fx-border-color: #fff;
+}
+.create-account{
+    -fx-text-fill: #0014ff;
+    -fx-font-family: "Mulish";
+    -fx-font-size: 15;
+    -fx-font-weight: 700;
+}
+.login-btn{
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: #0014ff;
 }
