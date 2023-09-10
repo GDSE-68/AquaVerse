@@ -3,7 +3,7 @@
     -fx-font-family: Mulish;
     -fx-font-size: 32px;
     -fx-font-style: normal;
-    -fx-font-weight: 800;
+    -fx-font-weight: 800 px;
     -fx-line-height: normal;
 }
 .sub{
@@ -11,6 +11,22 @@
     -fx-font-family: Mulish;
     -fx-font-size: 20px;
     -fx-font-style: normal;
-    -fx-font-weight: 400;
+    -fx-font-weight: 400 px;
     -fx-line-height: normal;
+}
+.username{
+    -fx-text-fill: #474747;
+    -fx-font-family: "Mulish";
+    -fx-font-size: 20;
+
+}
+.login-box{
+    -fx-border-color: rgba(255, 255, 255, 0.73);
+    -fx-border-width: 5;
+    -fx-border-radius: 20;
+    -fx-background-color: rgba(255, 255, 255, 0.83);
+    -fx-background-radius: 20;
+}
+.label-user{
+    -fx-border-color: #fff;
 }
