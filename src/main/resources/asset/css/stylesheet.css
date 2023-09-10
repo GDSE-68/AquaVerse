@@ -29,6 +29,16 @@
 .label-user{
     -fx-border-color: #fff;
 }
+.button {
+    -fx-background-color: #2980b9; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 25px;
+}
 .create-account{
     -fx-text-fill: #0014ff;
     -fx-font-family: "Mulish";
@@ -39,4 +49,8 @@
     -fx-border-radius: 4;
     -fx-background-radius: 4;
     -fx-background-color: #0014ff;
+}
+.loading-circle{
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
 }
