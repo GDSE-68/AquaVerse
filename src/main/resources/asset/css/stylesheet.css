@@ -25,7 +25,6 @@
     -fx-border-radius: 20;
     -fx-background-radius: 20;
     -fx-background-color: rgba(219, 219, 219, 0.84);
-
 }
 .label-user{
     -fx-border-color: #fff;
@@ -51,10 +50,24 @@
     -fx-background-radius: 4;
     -fx-background-color: #0014ff;
     -fx-text-fill: #ffff;
+    -fx-font-size: 15;
+    -fx-pref-height: 45;
 }
 .loading-circle{
     -fx-border-radius: 100;
     -fx-background-radius: 100;
+    -fx-background-color: #ffff;
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+    -fx-text-fill: #0014ff;
+}
+.loaded-circle{
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-background-color: #0014ff;
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+    -fx-text-fill: #ffff;
 }
 .sendOtpButton {
     -fx-background-color: #2980b9; /* Green */
@@ -65,4 +78,8 @@
     -fx-text-decoration: none;
     -fx-display: inline-block;
     -fx-font-size: 15px;
+}
+.dashboard-side-bar{
+    -fx-border-radius: 20px 0px 0px 20px;
+    -fx-background-radius: 20px 0px 0px 20px;
 }
