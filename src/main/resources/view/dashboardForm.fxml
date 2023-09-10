@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.DashboardFormController">
+   <children>
+      <ImageView fitHeight="780.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/login.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="66.0" layoutY="52.0" prefHeight="678.0" prefWidth="1269.0" styleClass="login-box" stylesheets="@../asset/css/stylesheet.css">
+         <children>
+            <Pane prefHeight="683.0" prefWidth="138.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="33.0" layoutY="31.0" prefHeight="31.0" prefWidth="94.0" text="AQUA" textFill="#0014ff">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="64.0" text="Verse">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="42.0" fitWidth="60.0" layoutX="45.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="54.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz/home%205.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="60.0" layoutX="45.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(1)/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="53.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(1)/settings%203.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="60.0" layoutX="46.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(2)/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="57.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(2)/user%206.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="51.0" fitWidth="61.0" layoutX="41.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(3)/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="51.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(3)/calendar%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="54.0" layoutX="41.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(4)/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="52.0" fitWidth="23.0" layoutX="58.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(4)/setting%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="61.0" layoutX="40.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(5)/Rectangle%20137.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="55.0" layoutY="566.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Downloads/EVotz%20(5)/pie-chart%201.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fitHeight="59.0" fitWidth="82.0" layoutX="182.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

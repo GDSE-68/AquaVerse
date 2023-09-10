@@ -23,8 +23,8 @@
             <Label layoutX="83.0" layoutY="273.0" styleClass="username" stylesheets="@../asset/css/stylesheet.css" text="Enter OTP" />
             <TextField layoutX="82.0" layoutY="208.0" prefHeight="54.0" prefWidth="386.0" />
             <TextField layoutX="80.0" layoutY="302.0" prefHeight="52.0" prefWidth="231.0" />
-            <Button layoutX="349.0" layoutY="300.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="179.0" styleClass="sendOtpButton" stylesheets="@../asset/css/stylesheet.css" text="Send OTP" />
-            <Button layoutX="97.0" layoutY="420.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="409.0" text="Create Account" />
+            <Button layoutX="349.0" layoutY="304.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="179.0" styleClass="sendOtpButton" stylesheets="@../asset/css/stylesheet.css" text="Send OTP" />
+            <Button layoutX="97.0" layoutY="420.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="409.0" text="Create Account" />
          </children>
       </AnchorPane>
    </children>

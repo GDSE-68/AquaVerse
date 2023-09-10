@@ -24,7 +24,8 @@
     -fx-border-width: 5;
     -fx-border-radius: 20;
     -fx-background-radius: 20;
-    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.39));
+    -fx-background-color: rgba(219, 219, 219, 0.84);
+
 }
 .label-user{
     -fx-border-color: #fff;
@@ -49,8 +50,19 @@
     -fx-border-radius: 4;
     -fx-background-radius: 4;
     -fx-background-color: #0014ff;
+    -fx-text-fill: #ffff;
 }
 .loading-circle{
     -fx-border-radius: 100;
     -fx-background-radius: 100;
+}
+.sendOtpButton {
+    -fx-background-color: #2980b9; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 15px 25px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 15px;
 }
