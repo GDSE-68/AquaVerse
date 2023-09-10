@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="780.0" fitWidth="1400.0" layoutX="457.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../asset/login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="780.0" fitWidth="1400.0" layoutX="180.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../asset/RectangleDark.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="690.0" fitWidth="590.0" layoutX="397.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Rectangle.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="609.0" layoutY="118.0" styleClass="sub" stylesheets="@../asset/css/stylesheet.css" text="Welcome back !" textFill="#757575" />
+      <Label layoutX="509.0" layoutY="143.0" styleClass="headline" stylesheets="@../asset/css/stylesheet.css" text="Login to your account" />
+      <TextField layoutX="445.0" layoutY="252.0" prefHeight="68.0" prefWidth="498.0" promptText="Enter your username" />
+   </children>
+</AnchorPane>

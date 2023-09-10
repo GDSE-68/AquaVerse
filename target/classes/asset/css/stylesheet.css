@@ -1,0 +1,16 @@
+.headline{
+    -fx-text-fill: #333;
+    -fx-font-family: Mulish;
+    -fx-font-size: 32px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+    -fx-line-height: normal;
+}
+.sub{
+    -fx-text-fill: #757575;
+    -fx-font-family: Mulish;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-line-height: normal;
+}
