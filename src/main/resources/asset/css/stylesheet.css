@@ -54,3 +54,13 @@
     -fx-border-radius: 100;
     -fx-background-radius: 100;
 }
+.sendOtpButton {
+    -fx-background-color: #2980b9; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 15px 25px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 15px;
+}
