@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.aquaverse.controller.MainDashboardFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="576.0" prefWidth="824.0" stylesheets="@../asset/css/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.MainDashboardFormController">
+   <children>
+      <Label layoutX="42.0" layoutY="32.0" prefHeight="21.0" prefWidth="316.0" styleClass="dashboard-lbl" text="Dashboard" />
+      <Pane layoutX="42.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" styleClass="turbidity-box">
+         <children>
+            <Label alignment="CENTER" styleClass="turbidity-box-topic" text="Turbidity" textAlignment="CENTER" />
+            <Label layoutX="37.0" layoutY="46.0" styleClass="turbidity-box-detail" text="0.0005%" />
+         </children>
+      </Pane>
+      <Pane layoutX="42.0" layoutY="225.0" prefHeight="200.0" prefWidth="200.0" styleClass="conductivity-box">
+         <children>
+            <Label alignment="CENTER" styleClass="conductivity-box-topic" text="Conductivity" textAlignment="CENTER" />
+            <Label layoutX="37.0" layoutY="44.0" styleClass="turbidity-box-detail" text="0.0005%" />
+         </children>
+      </Pane>
+      <Pane layoutX="42.0" layoutY="342.0" prefHeight="200.0" prefWidth="200.0" styleClass="graph">
+         <children>
+            <Label alignment="CENTER" styleClass="conductivity-box-topic" text="Conductivity" textAlignment="CENTER" />
+            <Label layoutX="37.0" layoutY="53.0" styleClass="turbidity-box-detail" text="0.0005%" />
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
