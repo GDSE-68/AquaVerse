@@ -70,13 +70,10 @@
     -fx-text-fill: #ffff;
 }
 .sendOtpButton {
-    -fx-background-color: #2980b9; /* Green */
-    -fx-border: none;
-    -fx-color: white;
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
     -fx-padding: 15px 25px;
-    -fx-text-align: center;
-    -fx-text-decoration: none;
-    -fx-display: inline-block;
+    -fx-text-alignment: center;
     -fx-font-size: 15px;
 }
 .dashboard-side-bar{
@@ -116,10 +113,72 @@
     -fx-pref-height: 30;
 }
 .reminders{
-    -fx-color: #000;
+    -fx-text-fill: #000;
     -fx-font-family: Mulish;
     -fx-font-size: 20px;
     -fx-font-style: normal;
     -fx-font-weight: 800;
-    -fx-line-height: normal;
+}
+.dashboard-lbl{
+    -fx-text-fill: #000;
+    -fx-font-family: Mulish;
+    -fx-font-size: 40px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+}
+.turbidity-box{
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #6A64D4;
+    -fx-border-width: 1;
+    -fx-pref-width: 217;
+    -fx-pref-height: 100;
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+}
+.turbidity-box-topic{
+    -fx-pref-width: 217;
+    -fx-pref-height: 40;
+    -fx-background-color: #6A64D4;
+    -fx-background-radius: 5 5 0 0;
+    -fx-border-radius: 5 5 0 0;
+    -fx-text-fill: #ffff;
+    -fx-font-family: Lato;
+    -fx-font-weight: 700;
+    -fx-font-size: 20;
+}
+.turbidity-box-detail{
+    -fx-text-fill: #000;
+    -fx-font-family: Lato;
+    -fx-font-size: 36;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.conductivity-box{
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #3EC278;
+    -fx-border-width: 1;
+    -fx-pref-width: 217;
+    -fx-pref-height: 100;
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+}
+.conductivity-box-topic{
+    -fx-pref-width: 217;
+    -fx-pref-height: 40;
+    -fx-background-color: #3EC278;
+    -fx-background-radius: 5 5 0 0;
+    -fx-border-radius: 5 5 0 0;
+    -fx-text-fill: #ffff;
+    -fx-font-family: Lato;
+    -fx-font-weight: 700;
+    -fx-font-size: 20;
+}
+.graph{
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #3EC278;
+    -fx-border-width: 1;
+    -fx-pref-width: 709;
+    -fx-pref-height: 200;
+    -fx-background-color: rgba(255, 255, 255, 0.6);
 }
