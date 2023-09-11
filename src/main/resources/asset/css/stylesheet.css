@@ -83,3 +83,43 @@
     -fx-border-radius: 20px 0px 0px 20px;
     -fx-background-radius: 20px 0px 0px 20px;
 }
+.name{
+    -fx-text-fill: #ffff;
+    -fx-font-family: Lato;
+    -fx-font-size: 15;
+    -fx-font-weight: 700;
+}
+.date-time{
+    -fx-text-fill: rgb(118, 118, 118);
+    -fx-font-family: Lato;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.last-login-time-date{
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+    -fx-font-family: Lato;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+}
+.edit-profile-btn{
+    -fx-text-fill: #ffff;
+    -fx-font-family: Lato;
+    -fx-font-size: 10px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+    -fx-background-color: #0014FF;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-pref-width:100 ;
+    -fx-pref-height: 30;
+}
+.reminders{
+    -fx-color: #000;
+    -fx-font-family: Mulish;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+    -fx-line-height: normal;
+}
