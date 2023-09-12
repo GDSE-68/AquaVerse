@@ -1,0 +1,82 @@
+.login-box{
+    -fx-border-width: 5;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: rgba(219, 219, 219, 0.84);
+}
+.headline{
+    -fx-text-fill: #333;
+    -fx-font-family: Mulish;
+    -fx-font-size: 34px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+    -fx-line-height: normal;
+}
+.sub{
+    -fx-text-fill: #757575;
+    -fx-font-family: Mulish;
+    -fx-font-size: 22px;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-line-height: normal;
+}
+.username{
+    -fx-text-fill: #474747;
+    -fx-font-family: "Mulish";
+    -fx-font-size: 15;
+    -fx-font-weight: 600;
+}
+.login-btn{
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: #0014ff;
+    -fx-text-fill: #ffff;
+    -fx-font-size: 15;
+    -fx-pref-height: 45;
+    -fx-pref-width: 498;
+}
+.create-account{
+    -fx-text-fill: #0014ff;
+    -fx-font-family: "Mulish";
+    -fx-font-size: 15;
+    -fx-font-weight: 700;
+}
+.loading-circle{
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: rgba(0, 0, 0, 0.5);
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+    -fx-text-fill: #0014ff;
+}
+.loaded-circle{
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-background-color: #0014ff;
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+    -fx-text-fill: #ffff;
+}
+.circle-label{
+    -fx-text-alignment: center;
+    -fx-font-family: Catamaran;
+    -fx-font-size: 18px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+}
+.loaded-text{
+    -fx-text-fill: #0014FF;
+    -fx-text-alignment: center;
+    -fx-font-family: Inter;
+    -fx-font-size: 10px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}.loading-text{
+     -fx-text-fill: #4D606C;
+     -fx-text-alignment: center;
+     -fx-font-family: Inter;
+     -fx-font-size: 10px;
+     -fx-font-style: normal;
+     -fx-font-weight: 700;
+ }
