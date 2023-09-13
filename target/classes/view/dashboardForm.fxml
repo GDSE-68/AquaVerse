@@ -1,42 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.DashboardFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../asset/css/DashboardStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.DashboardFormController">
    <children>
       <ImageView fitHeight="780.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../asset/login.png" />
          </image>
       </ImageView>
-      <Pane layoutX="66.0" layoutY="52.0" prefHeight="678.0" prefWidth="1269.0" styleClass="login-box" stylesheets="@../asset/css/stylesheet.css">
+      <Pane layoutX="66.0" layoutY="51.0" prefHeight="678.0" prefWidth="1269.0" styleClass="main-box" stylesheets="@../asset/css/stylesheet.css">
          <children>
-            <Pane prefHeight="678.0" prefWidth="138.0" style="-fx-background-color: white;" styleClass="dashboard-side-bar" stylesheets="@../asset/css/stylesheet.css">
+            <Pane layoutX="1.0" prefHeight="677.0" prefWidth="137.0" style="-fx-background-color: white;" styleClass="dashboard-side-bar">
                <children>
-                  <Label layoutX="33.0" layoutY="31.0" prefHeight="31.0" prefWidth="94.0" text="AQUA" textFill="#0014ff">
-                     <font>
-                        <Font name="System Bold" size="28.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="42.0" layoutY="64.0" text="Verse">
-                     <font>
-                        <Font name="System Bold" size="20.0" />
-                     </font>
-                  </Label>
-                  <Pane layoutX="48.0" layoutY="125.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #FF6380;" />
-                  <Pane layoutX="48.0" layoutY="191.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #F19C2D;" />
-                  <Pane layoutX="48.0" layoutY="257.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #CC77FF;" />
-                  <Pane layoutX="48.0" layoutY="604.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #767676;" />
-                  <Pane layoutX="47.0" layoutY="322.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #6A64D4;" />
-                  <Pane layoutX="46.0" layoutY="385.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #3EC278;" />
-                  <Pane layoutX="46.0" layoutY="451.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 5; -fx-background-color: #4F95FF;" />
-               </children>
-            </Pane>
+                  <Pane layoutX="35.0" layoutY="31.0">
+                     <children>
+                        <Label styleClass="aqua" text="AQUA" />
+                        <Label layoutX="11.0" layoutY="22.0" styleClass="verse" text="Verse">
+                           <opaqueInsets>
+                              <Insets right="1.0" />
+                           </opaqueInsets>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="48.0" layoutY="105.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FF6380;" styleClass="icon-box">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" styleClass="icon">
+                           <image>
+                              <Image url="@../asset/home.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="47.0" layoutY="171.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F19C2D;" styleClass="icon-box">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" styleClass="icon">
+                           <image>
+                              <Image url="@../asset/settings.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="47.0" layoutY="237.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #CC77FF;" styleClass="icon-box">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" styleClass="icon">
+                           <image>
+                              <Image url="@../asset/user.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="46.0" layoutY="302.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6A64D4;" styleClass="icon-box">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" styleClass="icon">
+                           <image>
+                              <Image url="@../asset/home.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="46.0" layoutY="368.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3EC278;" styleClass="icon-box" />
+                  <Pane layoutX="46.0" layoutY="433.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4F95FF;" styleClass="icon-box" />
+                  <Pane layoutX="46.0" layoutY="584.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #767676;" styleClass="icon-box" />
+               </children></Pane>
          </children>
       </Pane>
    </children>
