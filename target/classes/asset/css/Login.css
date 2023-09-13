@@ -35,15 +35,6 @@
     -fx-pref-height: 45;
     -fx-pref-width: 498;
 }
-.otp-btn{
-    -fx-border-radius: 4;
-    -fx-background-radius: 4;
-    -fx-background-color: #0014ff;
-    -fx-text-fill: #ffff;
-    -fx-font-size: 15;
-    -fx-pref-height: 50;
-    -fx-pref-width: 190;
-}
 .create-account{
     -fx-text-fill: #0014ff;
     -fx-font-family: "Mulish";
