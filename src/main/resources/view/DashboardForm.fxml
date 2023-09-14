@@ -41,6 +41,7 @@
                               <Image url="@../asset/home.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnHome" onAction="#btnHomeOnAction" opacity="0.0" prefHeight="45.0" prefWidth="47.0" text=" " />
                      </children>
                   </Pane>
                   <Pane layoutX="47.0" layoutY="171.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F19C2D;" styleClass="icon-box">
@@ -50,6 +51,7 @@
                               <Image url="@../asset/settings.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnProcessControl" layoutX="-2.0" onAction="#btnProcessControlOnAction" opacity="0.0" prefHeight="45.0" prefWidth="49.0" text=" " />
                      </children>
                   </Pane>
                   <Pane layoutX="47.0" layoutY="237.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #CC77FF;" styleClass="icon-box">
@@ -59,6 +61,7 @@
                               <Image url="@../asset/user.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnEmployeeManagement" onAction="#btnEmployeeManagementOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children>
                   </Pane>
                   <Pane layoutX="46.0" layoutY="302.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6A64D4;" styleClass="icon-box">
@@ -128,10 +131,11 @@
                   <Image url="@../asset/active.png" />
                </image>
             </ImageView>
-            <JFXTextField layoutX="171.0" layoutY="53.0" promptText="Search" />
-            <Label layoutX="803.0" layoutY="62.0" styleClass="date-time" text="22 : 35" />
-            <Label layoutX="864.0" layoutY="62.0" styleClass="date-time" text="25th Jan 2002" />
-            <Line endX="-88.25" layoutX="951.0" layoutY="73.0" rotate="90.0" startX="-100.0" stroke="#767676" strokeWidth="2.0" />
+            <JFXTextField layoutX="171.0" layoutY="63.0" promptText="Search" />
+            <Label layoutX="803.0" layoutY="81.0" styleClass="date-time" text="22 : 35" />
+            <Label layoutX="864.0" layoutY="81.0" styleClass="date-time" text="25th Jan 2002" />
+            <Line endX="-88.25" layoutX="951.0" layoutY="92.0" rotate="90.0" startX="-100.0" stroke="#767676" strokeWidth="2.0" />
+            <AnchorPane fx:id="bodyPane" layoutX="148.0" layoutY="102.0" prefHeight="565.0" prefWidth="828.0" />
          </children>
       </Pane>
    </children>

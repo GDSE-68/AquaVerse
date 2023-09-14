@@ -6,8 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.util.Objects;
-
 public class Launcher extends Application {
     public static void main(String[] args) {
         launch(args);
@@ -15,7 +13,7 @@ public class Launcher extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent rootNode = FXMLLoader.load(getClass().getResource("/view/dashboardForm.fxml"));
+        Parent rootNode = FXMLLoader.load(getClass().getResource("/view/DashboardForm.fxml"));
 
         Scene scene= new Scene(rootNode);
         stage.setTitle("Aqua Verse");
