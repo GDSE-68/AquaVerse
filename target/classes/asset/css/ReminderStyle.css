@@ -1,0 +1,24 @@
+.main-box{
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-background-color: rgba(255, 255, 255, 0.60);
+}
+.topic{
+    -fx-text-fill: rgba(0, 0, 0, 0.60);
+    -fx-font-family: Mulish;
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+}
+.time-date{
+    -fx-text-fill: rgba(0, 0, 0, 0.60);
+    -fx-font-family: Mulish;
+    -fx-font-size: 10px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.icon-pane{
+    -fx-background-color: rgba(255,99,128,0.40);
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}

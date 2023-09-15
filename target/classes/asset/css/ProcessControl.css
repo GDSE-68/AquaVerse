@@ -1,0 +1,43 @@
+.processControl-handybox{
+    -fx-background-color: rgba(255, 255, 255, 0.60);
+    -fx-border-radius: 5px;
+    -fx-border-color: #3EC278;
+    -fx-border-width: 1px;
+
+}
+.processControl-label-horizontal{
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+    -fx-text-fill: #FFF;
+    -fx-font-family: Lato;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+
+}.processControl-label-vertical{
+     -fx-border-radius: 5 0 0 5;
+     -fx-background-radius: 5 0 0 5;
+     -fx-text-fill: #FFF;
+     -fx-font-family: Lato;
+     -fx-font-size: 20px;
+     -fx-font-weight: 700;
+     -fx-pref-width: 30;
+     -fx-pref-height: 105;
+
+ }
+.processControl-Sub{
+    -fx-text-fill: #000;
+    -fx-font-family: Mulish;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.processControl-status-timer{
+    -fx-text-fill: #000;
+    -fx-font-family: Lato;
+    -fx-font-size: 10px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-font-weight: 700;
+}
