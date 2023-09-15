@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.EmployeeAttendenceController">
+   <children>
+      <Label layoutX="42.0" layoutY="32.0" styleClass="dashboard-lbl" text="Employee Attendence" />
+      <Pane layoutX="422.0" layoutY="131.0" prefHeight="247.0" prefWidth="347.0" style="-fx-border-color: #4F95FF;" styleClass="detail-box">
+         <children>
+            <Label prefHeight="38.0" prefWidth="347.0" style="-fx-background-color: #4F95FF; -fx-background-radius: 5 5 0 0;" />
+            <Label layoutX="19.0" layoutY="-1.0" styleClass="detail-box-label" text="Employee">
+               <opaqueInsets>
+                  <Insets right="1.0" />
+               </opaqueInsets>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="303.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/Search.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="46.0" prefHeight="58.0" prefWidth="317.0" styleClass="name-box">
+               <children>
+                  <Label layoutX="24.0" layoutY="11.0" styleClass="name" text="Sarath Kumara" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="112.0" prefHeight="58.0" prefWidth="317.0" styleClass="name-box">
+               <children>
+                  <Label layoutX="25.0" layoutY="11.0" styleClass="name" text="Maleesha Vilochana" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="179.0" prefHeight="58.0" prefWidth="317.0" styleClass="name-box">
+               <children>
+                  <Label layoutX="24.0" layoutY="12.0" styleClass="name" text="Sasanka Priyadarshana" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="65.0" layoutY="131.0" prefHeight="115.0" prefWidth="310.0" style="-fx-border-color: #6A64D4;" styleClass="detail-box">
+         <children>
+            <Label prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6A64D4; -fx-background-radius: 5 5 0 0;" />
+            <Label layoutX="75.0" layoutY="3.0" styleClass="topic" text="Today Attendence" />
+            <Label layoutX="134.0" layoutY="48.0" styleClass="detail" text="04" />
+         </children>
+      </Pane>
+      <Pane layoutX="65.0" layoutY="265.0" prefHeight="115.0" prefWidth="310.0" style="-fx-border-color: #3EC278;" styleClass="detail-box">
+         <children>
+            <Label prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #3EC278; -fx-background-radius: 5 5 0 0;" />
+            <Label layoutX="80.0" layoutY="3.0" styleClass="topic" text="Your Lift Ends on" />
+            <Label layoutX="109.0" layoutY="48.0" styleClass="detail" text="12:00" />
+         </children>
+      </Pane>
+      <Pane layoutX="65.0" layoutY="400.0" prefHeight="115.0" prefWidth="310.0" style="-fx-border-color: #FF6380;" styleClass="detail-box">
+         <children>
+            <Label prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #FF6380; -fx-background-radius: 5 5 0 0;" />
+            <Label layoutX="72.0" layoutY="3.0" styleClass="topic" text="Next Lift Employee" />
+            <Label layoutX="31.0" layoutY="48.0" styleClass="detail" text="Sarath Kumara" />
+         </children>
+      </Pane>
+      <Label layoutX="422.0" layoutY="421.0" styleClass="confirm-your-attendece" text="Confirm Your" />
+      <Label layoutX="422.0" layoutY="445.0" styleClass="confirm-your-attendece" text="Attendence" />
+      <JFXRadioButton contentDisplay="CENTER" layoutX="651.0" layoutY="433.0" prefHeight="46.0" prefWidth="118.0" style="-fx-background-color: #3EC278; -fx-border-radius: 5;" text="Attend" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXRadioButton>
+   </children>
+   <stylesheets>
+      <URL value="@../asset/css/MainDashboardStyle.css" />
+      <URL value="@../asset/css/EmployeeAttendence.css" />
+   </stylesheets>
+</AnchorPane>
