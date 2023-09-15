@@ -61,7 +61,7 @@
                               <Image url="@../asset/user.png" />
                            </image>
                         </ImageView>
-                        <JFXButton fx:id="btnHome11" onAction="#btnHomeOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
+                        <JFXButton fx:id="btnEmployeeManagement" onAction="#btnEmployeeManagementOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children>
                   </Pane>
                   <Pane layoutX="46.0" layoutY="302.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6A64D4;" styleClass="icon-box">

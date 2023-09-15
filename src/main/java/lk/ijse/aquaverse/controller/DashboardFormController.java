@@ -22,4 +22,7 @@ public class DashboardFormController {
         bodyPane.getChildren().clear();
         bodyPane.getChildren().add(FXMLLoader.load(Objects.requireNonNull(this.getClass().getResource("/view/ProcessControlForm.fxml"))));
     }
+
+    public void btnEmployeeManagementOnAction(ActionEvent actionEvent) {
+    }
 }
