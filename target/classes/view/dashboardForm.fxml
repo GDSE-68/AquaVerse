@@ -71,6 +71,7 @@
                               <Image url="@../asset/calendar.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnAttendenceManagement" onAction="#btnAttendenceManagementOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children>
                   </Pane>
                   <Pane layoutX="46.0" layoutY="368.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3EC278;" styleClass="icon-box">
@@ -80,6 +81,7 @@
                               <Image url="@../asset/setting.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnStockManagement" onAction="#btnStockManagementOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children></Pane>
                   <Pane layoutX="46.0" layoutY="433.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4F95FF;" styleClass="icon-box">
                      <children>
@@ -88,6 +90,7 @@
                               <Image url="@../asset/pieChart.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnReportsManagement" onAction="#btnReportsManagementOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children></Pane>
                   <Pane layoutX="46.0" layoutY="584.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #767676;" styleClass="icon-box">
                      <children>
@@ -96,6 +99,7 @@
                               <Image url="@../asset/logout.png" />
                            </image>
                         </ImageView>
+                        <JFXButton fx:id="btnLogOut" onAction="#btnLogOutOnAction" opacity="0.0" prefHeight="45.0" prefWidth="45.0" text=" " />
                      </children></Pane>
                </children></Pane>
             <Separator layoutX="985.0" layoutY="41.0" orientation="VERTICAL" prefHeight="602.0" prefWidth="0.0" />
@@ -105,7 +109,7 @@
                   <Image url="@../asset/profile.png" />
                </image>
             </ImageView>
-            <JFXButton layoutX="1084.0" layoutY="350.0" styleClass="edit-profile-btn" text="Edit Profile" />
+            <JFXButton fx:id="btnEditProfile" layoutX="1084.0" layoutY="350.0" onAction="#btnEditProfileOnAction" styleClass="edit-profile-btn" text="Edit Profile" />
             <Pane layoutX="1180.0" layoutY="202.0">
                <children>
                   <JFXButton layoutX="4.0" layoutY="4.0" prefHeight="20.0" prefWidth="29.0" style="-fx-background-color: white;" styleClass="plus-btn" text=" " textFill="#dcf1ff">

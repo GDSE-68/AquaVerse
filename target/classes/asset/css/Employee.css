@@ -1,0 +1,56 @@
+.detail-box{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+.detail-box-label{
+    -fx-text-fill: #FFF;
+    -fx-font-family: Lato;
+    -fx-font-size: 28px;
+    -fx-font-style: normal;
+    -fx-font-weight: 800;
+}
+.detail-box-topic{
+    -fx-text-fill: rgba(0, 0, 0, 0.50);
+    -fx-font-family: Lato;
+    -fx-font-size: 28px;
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+}
+.detail-box-sub{
+    -fx-text-fill: rgba(0, 0, 0, 0.50);
+    -fx-font-family: Lato;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+}
+.go-btn{
+    -fx-pref-width: 51px;
+    -fx-pref-height: 31px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #FFF;
+    -fx-font-family: Lato;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.number{
+    -fx-text-fill: #000;
+    -fx-font-family: Lato;
+    -fx-font-size: 48px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
+.name-box{
+    -fx-background-radius: 5px;
+    -fx-background-color: #FFF;
+    -fx-border-color: linear-gradient(#c6c5c5, #959494);
+}
+.name{
+    -fx-text-fill: #000;
+    -fx-font-family: Lato;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+}
