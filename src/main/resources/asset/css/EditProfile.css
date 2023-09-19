@@ -1,0 +1,19 @@
+.informationlbl{
+    -fx-text-fill: #000;
+    -fx-font-family: Mulish;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: 650;
+}
+.namelbl{
+    -fx-background-color: #6A64D4;
+    -fx-background-radius: 5 0 0 5;
+    -fx-border-radius: 5 0 0 5;
+}
+.nametxt{
+    -fx-text-fill: #FFF;
+    -fx-font-family: Lato;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+}

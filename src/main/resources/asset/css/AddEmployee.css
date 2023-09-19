@@ -1,0 +1,14 @@
+.topic{
+    -fx-text-fill: rgba(0, 0, 0, 0.50);
+    -fx-font-family: Lato;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+}
+.sub{
+    -fx-text-fill: rgba(0,0,0,0.50);
+    -fx-font-family: Lato;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+}

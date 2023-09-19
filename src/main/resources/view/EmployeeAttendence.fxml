@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="576.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.aquaverse.controller.EmployeeAttendenceController">
    <children>
-      <Label layoutX="42.0" layoutY="32.0" styleClass="dashboard-lbl" text="Employee Attendence" />
+      <Label layoutX="63.0" layoutY="41.0" styleClass="dashboard-lbl" text="Employee Attendence" />
       <Pane layoutX="422.0" layoutY="131.0" prefHeight="247.0" prefWidth="347.0" style="-fx-border-color: #4F95FF;" styleClass="detail-box">
          <children>
             <Label prefHeight="38.0" prefWidth="347.0" style="-fx-background-color: #4F95FF; -fx-background-radius: 5 5 0 0;" />
@@ -66,7 +66,7 @@
       </Pane>
       <Label layoutX="422.0" layoutY="421.0" styleClass="confirm-your-attendece" text="Confirm Your" />
       <Label layoutX="422.0" layoutY="445.0" styleClass="confirm-your-attendece" text="Attendence" />
-      <JFXRadioButton contentDisplay="CENTER" layoutX="651.0" layoutY="433.0" prefHeight="46.0" prefWidth="118.0" style="-fx-background-color: #3EC278; -fx-border-radius: 5;" text="Attend" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+      <JFXRadioButton contentDisplay="CENTER" layoutX="627.0" layoutY="433.0" prefHeight="46.0" prefWidth="142.0" style="-fx-background-color: #3EC278; -fx-border-radius: 5;" text="Attend" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" AnchorPane.leftAnchor="627.0">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
