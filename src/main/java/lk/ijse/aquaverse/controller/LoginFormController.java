@@ -1,24 +1,31 @@
 package lk.ijse.aquaverse.controller;
 
+import com.fazecast.jSerialComm.SerialPort;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import lk.ijse.aquaverse.DBConnection;
+import lk.ijse.aquaverse.db.DB;
+import lk.ijse.aquaverse.entity.Arduino;
 import lk.ijse.aquaverse.entity.User;
 
 import java.io.IOException;
+import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
-public class LoginFormController {
+import static java.lang.Thread.sleep;
 
-    
+public class LoginFormController  {
+
     public javafx.scene.control.TextField txtPassword;
     public TextField txtUserName;
     public AnchorPane loginPane;
@@ -27,13 +34,13 @@ public class LoginFormController {
 
 
     public void LoginFormOnAction(ActionEvent actionEvent) throws IOException {
-        String userName = txtUserName.getText ();
-        String password=txtPassword.getText ();
+        String userName = txtUserName.getText();
+        String password = txtPassword.getText();
 
         try {
             User user = checkAuthentication(userName, password);
 
-            if (user!=null){
+            if (user != null) {
                 //login Success and navigate
                 Stage stage = new Stage();
                 stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/DashboardForm.fxml"))));
@@ -41,9 +48,11 @@ public class LoginFormController {
 
                 Stage stage2 = (Stage) loginPane.getScene().getWindow();
                 stage2.close();
-            }else{
+
+
+            } else {
                 //alert Message
-                new Alert(Alert.AlertType.WARNING,"INVALID USER NAME OR PASSWORD..").show ();
+                new Alert(Alert.AlertType.WARNING, "INVALID USER NAME OR PASSWORD..").show();
                 txtUserName.clear();
                 txtPassword.clear();
             }
@@ -55,19 +64,19 @@ public class LoginFormController {
 
     }
 
-    public User checkAuthentication(String userName,String password) throws SQLException, ClassNotFoundException {
+    public User checkAuthentication(String userName, String password) throws SQLException, ClassNotFoundException {
 
-        Connection connection = DBConnection.getConnection ();
-        PreparedStatement pstm = connection.prepareStatement ("SELECT * FROM user WHERE username=? && userPass=?");
-        pstm.setObject (1,userName);
-        pstm.setObject (2,password);
+        Connection connection = DBConnection.getConnection();
+        PreparedStatement pstm = connection.prepareStatement("SELECT * FROM user WHERE username=? && userPass=?");
+        pstm.setObject(1, userName);
+        pstm.setObject(2, password);
 
         ResultSet rst = pstm.executeQuery();
 
-        while (rst.next()){
-              return new User(rst.getString(1),rst.getString(2));
+        while (rst.next()) {
+            return new User(rst.getString(1), rst.getString(2));
         }
-        return  null;
+        return null;
     }
 
 
@@ -88,4 +97,5 @@ public class LoginFormController {
         Stage stage2 = (Stage) loginPane.getScene().getWindow();
         stage2.close();
     }
+
 }

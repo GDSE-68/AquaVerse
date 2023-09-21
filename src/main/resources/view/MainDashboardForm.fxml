@@ -14,13 +14,13 @@
       <Pane layoutX="42.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" styleClass="turbidity-box">
          <children>
             <Label alignment="CENTER" styleClass="turbidity-box-topic" text="Turbidity" textAlignment="CENTER" />
-            <Label layoutX="37.0" layoutY="46.0" styleClass="turbidity-box-detail" text="0.0005%" />
+            <Label fx:id="txtTubidity" layoutX="37.0" layoutY="46.0" styleClass="turbidity-box-detail" text="5" />
          </children>
       </Pane>
       <Pane layoutX="42.0" layoutY="225.0" prefHeight="200.0" prefWidth="200.0" styleClass="conductivity-box">
          <children>
             <Label alignment="CENTER" styleClass="conductivity-box-topic" text="Conductivity" textAlignment="CENTER" />
-            <Label layoutX="37.0" layoutY="44.0" styleClass="turbidity-box-detail" text="0.0005%" />
+            <Label fx:id="txtConductivity" layoutX="37.0" layoutY="44.0" styleClass="turbidity-box-detail" text="02000" />
          </children>
       </Pane>
       <Pane layoutX="42.0" layoutY="342.0" prefHeight="200.0" prefWidth="200.0" styleClass="graph-box">
@@ -34,12 +34,13 @@
                 <NumberAxis side="LEFT" />
               </yAxis>
             </BarChart>
+            <Label alignment="CENTER" layoutX="-71.0" layoutY="85.0" prefWidth="182.0" rotate="270.0" styleClass="graph-box-name" text="Water Usage" />
          </children>
       </Pane>
       <Pane layoutX="288.0" layoutY="108.0" prefHeight="213.0" prefWidth="200.0" styleClass="ph-box">
          <children>
             <Label alignment="CENTER" styleClass="ph-box-topic" text="PH Value" textAlignment="CENTER" />
-            <Label layoutX="48.0" layoutY="171.0" styleClass="ph-box-detail" text="0.0005%" />
+            <Label fx:id="txtPh" layoutX="48.0" layoutY="171.0" styleClass="ph-box-detail" text="0.0005%" />
             <PieChart layoutX="9.0" layoutY="31.0" prefHeight="106.0" prefWidth="102.0" />
          </children>
       </Pane>
@@ -64,5 +65,6 @@
             <Label layoutX="26.0" layoutY="26.0" styleClass="handy-box-detail" text="Very Good for Today" />
          </children>
       </Pane>
+      <Label fx:id="txtAddress" layoutX="429.0" layoutY="51.0" text="Label" />
    </children>
 </AnchorPane>
